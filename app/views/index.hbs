@@ -1,0 +1,9 @@
+<ul>
+  {{#each data}}
+  <li>
+    <h2><strong>{{ this.title }}</strong></h2>
+    <p>Preço normal: {{ this.price.default }}</p>
+    <p>Preço promocional: {{ this.price.promotional }}</p>
+  </li>
+  {{/each}}
+</ul>

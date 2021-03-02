@@ -1,0 +1,7 @@
+# Packages
+node_modules/
+yarn.lock
+
+# Environment
+.env
+.DS_Store
